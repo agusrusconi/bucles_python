@@ -17,9 +17,15 @@ colores = ['rojo', 'naranja', 'verde', 'azul']
 # y utilizar como elemento del "for" cada color
 # for color ...
 
+for color in colores:
+   print("elemento: {}".format(color))
 # Itere el "for" utilizando el tamaño de la lista
 # como parámetro y utilizar el índice para acceder a
 # los elementos de la lista
 # for i ...
 
-print("terminamos!")
+for i in range(len(colores)):
+   print("color" , i , colores[i])
+   
+  
+print("terminamos")
